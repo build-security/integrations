@@ -31,4 +31,4 @@ policy_templates:
         title: retrieve cis findings
         description: k8s cis compliance
 owner:
-  github: davesys911
+  github: elastic/cloud-posture-security
