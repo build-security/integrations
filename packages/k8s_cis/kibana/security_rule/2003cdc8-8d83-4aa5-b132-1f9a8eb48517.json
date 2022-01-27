@@ -1,0 +1,23 @@
+{
+    "attributes": {
+        "author": [
+            "Elastic"
+        ],
+        "description": "testing piggybacking the normal sec rules",
+        "license": "Elastic License v2",
+        "name": "CSP Test",
+        "csp_test_field1": "123 lala",
+        "csp_test_field2": "123 lolo",
+        "risk_score": 73,
+        "rule_id": "2003cdc8-8d83-4aa5-b132-1f9a8eb48517",
+        "severity": "high",
+        "tags": [
+            "Elastic",
+            "CSP"
+        ],
+        "type": "csp",
+        "version": 1
+    },
+    "id": "2003cdc8-8d83-4aa5-b132-1f9a8eb48517",
+    "type": "security-rule"
+}
