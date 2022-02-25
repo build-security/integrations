@@ -5,14 +5,14 @@
     },
     "frequency": "5m",
     "source": {
-        "index": "cis_kubernetes_benchmark.findings-*"
+        "index": "logs-cis_kubernetes_benchmark.findings-*"
     },
     "latest": {
         "sort": "@timestamp",
         "unique_key": [
             "resource.filename.keyword",
-            "rule.name",
-            "agent.id"
+            "rule.name.keyword",
+            "agent.id.keyword"
         ]
     },
     "retention_policy": {
