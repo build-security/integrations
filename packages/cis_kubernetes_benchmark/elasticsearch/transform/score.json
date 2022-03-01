@@ -47,7 +47,7 @@
             "score": {
                 "bucket_script": {
                     "buckets_path": {
-                        "passed": "passed>passed_counter",
+                        "passed": "passed\u003epassed_counter",
                         "total": "total_findings"
                     },
                     "script": "params.passed / params.total"
